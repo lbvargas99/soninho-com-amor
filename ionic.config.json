@@ -1,0 +1,7 @@
+{
+  "name": "soninho-com-amor",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
