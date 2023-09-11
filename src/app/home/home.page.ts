@@ -6,7 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-
+  title: string = 'Cuidando do sono Nutrindo sorrisos';
+  loginConta: string = 'Entrar na conta';
+  cadastrarConta: string = 'CADASTRE-SE';
   constructor() {}
 
 }
