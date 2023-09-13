@@ -1,0 +1,181 @@
+
+#container {
+    background: #FFF4FF;
+    height: 100%;
+}
+
+.login-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.94rem;
+}
+
+.title {
+    color: #F1B8C9;
+    leading-trim: both;
+    text-edge: cap;
+    text-shadow: 0.25px 0.5px 0.5px rgba(69, 25, 41, 0.20);
+    font-family: Cookie;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -13px;
+}
+
+.login-text-content {
+    color: #292929;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+}
+
+.images-icon {
+    display: flex;
+    gap: 2.5rem;
+    margin-top: 1.25rem;
+}
+
+.logo {
+    height: 4rem;
+}
+
+.login-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nomeSobrenome {
+    display: flex;
+}
+
+.login-data {
+    font-family: Poppins;
+    width: 19.0625rem;
+    height: 10.4375rem;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 0.3125rem;
+    background: #FFF4FF;
+    box-shadow: 0.75px 0.5px 5px 0px rgba(51, 19, 30, 0.15);
+    padding: 1.8rem;
+}
+
+.teste {
+    margin: 2.94rem 0 2.88rem 0;
+
+    color: #292929;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.back-icon {
+    margin: 5.88rem 0 0 3.75rem;
+}
+
+.input {
+    display: flex;
+    width: 17.1875rem;
+    height: 1.875rem;
+    padding: 0.5625rem 1rem;
+    align-items: center;
+    margin-top: 0.62rem;
+    flex-shrink: 0;
+    font-size: 0.75rem;
+
+    border-radius: 0.3125rem;
+    border: 1px solid #EBE7E6;
+    background-color: transparent;
+}
+
+.input.senha {
+    margin-bottom: 1rem;
+}
+
+.input.Nome {
+    display: flex;
+    width: 9.25rem;
+    height: 1.875rem;
+    padding: 0.5625rem 1rem;
+    align-items: center;
+    gap: 1rem;
+    flex-shrink: 0;
+    margin-right: 0.62rem;
+
+    border-radius: 0.3125rem;
+    border: 1px solid #EBE7E6;
+
+    color: #9D9A99;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.input.Sobrenome {
+    display: flex;
+    width: 7.3125rem;
+    height: 1.875rem;
+    padding: 0.5625rem 0.875rem;
+    align-items: center;
+    gap: 1rem;
+    flex-shrink: 0;
+
+    border-radius: 0.3125rem;
+    border: 1px solid #EBE7E6;
+
+    color: #9D9A99;
+    text-align: right;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Poppins;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.entrar {
+    display: inline-flex;
+    padding: 1.25rem 2.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    margin-top: 2.5rem;
+    text-decoration: none;
+
+
+    border-radius: 2.8125rem;
+    background: #F1B8C9;
+    box-shadow: 0px 1px 2px 0px rgba(51, 19, 30, 0.25);
+
+    color: #3D1724;
+    font-family: Poppins;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.1025rem 
+
+}
