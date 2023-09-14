@@ -1,0 +1,61 @@
+.logo-rosto {
+    border-radius: 50%;
+    height: 4.5rem;
+}
+
+.inicio-header {
+    background-color: #F1B8C9;
+    height: 9.785rem;
+    border-radius: 0 0 2.8125rem 2.8125rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 4rem;
+    margin: 0 7rem 0 10.31rem;
+}
+
+.initial-login-data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1.44rem 0 0 0;
+}
+
+.conta-dados {
+    p {
+        color: var(--primary-body, #4C4E53);
+        leading-trim: both;
+        text-edge: cap;
+        font-family: Poppins;
+        font-size: 0.625rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0.8rem 0 0 0;
+    }
+
+    h3 {
+        color: var(--primary-title, #353535);
+        leading-trim: both;
+        text-edge: cap;
+        font-family: Poppins;
+        font-size: 1.29375rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin: 0;
+    }
+}
+
+.line {
+    height: 1px;
+    width: 19.375rem;
+    margin: 0.94rem auto 0.69rem auto;
+    background-color: #C38D9D;
+}
+

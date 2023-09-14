@@ -1,34 +1,47 @@
-<ion-content [fullscreen]="true">  
-  <div id="container">    
-    <a routerLink="/inicio-conta">
-      <img src="../../assets/menu-icon.svg" alt="" class="menu-icon">
-    </a>
-    <div class="login-header">
-      <img class="logo" src="../../assets/logo-mae.svg" alt="">
-    </div>
-    <div>
-      <img class="logo-rosto" src="../../assets/google-icon.svg" alt="">
-      <p class="title">Olá, tudo bem?</p>
-      <p>Cadastre-se e receba todos beneficios!</p>      
-    </div>
-    <div class="pesquisar">
-      <img class="logo-pesquisa" src="../../assets/search-icon.txt" alt="">
-      <input class="pesquisa" placeholder="Pesquise aqui suas principais dúvidas!*">
-    </div>
-    <div>
-      <p class="title">Dica do dia!</p>
-      <input class="como-fazer" placeholder="Como fazer">
-      <input class="como-fazer" placeholder="Como fazer">
-      <input class="como-fazer" placeholder="Como fazer">
-    </div>
-    <div>
-      <p class="title">Quem somos nós?</p>
-      <input class="quem-somos" placeholder="VíDEO PROMOCIONAL">
-    </div>
-    <div>
-      <p class="title">Conheça nossa consultoria!</p>
-      <p class=plano-de-sono>Plano de Sono</p>
-      <p class="personalizado">Personalizado</p>
-    </div>
-  </div>
+<ion-content [fullscreen]="true">
+	<div id="container">
+		<div class="inicio-header">
+			<div class="logo">
+				<img src="../../assets/logo-mae.svg" alt="">
+			</div>
+			<div class="menu-icon">
+				<a routerLink="/inicio-conta">
+					<img src="../../assets/menu-icon.svg" alt="">
+				</a>
+			</div>
+		</div>
+		<div class="initial-login-data">
+			<img class="logo-rosto" src="../../assets/logo-conta.svg">
+			<div class="conta-dados">
+				<h3 >Olá, tudo bem?</h3>
+				<p>Cadastre-se e receba todos beneficios!</p>
+			</div>
+		</div>
+		<div class="line"></div>
+		<div class="pesquisar">
+			<img class="logo-pesquisa" src="../../assets/search-icon.txt" alt="">
+			<input class="pesquisa" placeholder="Pesquise aqui suas principais dúvidas!*">
+		</div>
+		<div>
+			<p class="title">Dica do dia!</p>
+			<input class="como-fazer" placeholder="Como fazer">
+			<input class="como-fazer" placeholder="Como fazer">
+			<input class="como-fazer" placeholder="Como fazer">
+		</div>
+		<div>
+			<p class="title">Quem somos nós?</p>
+			<input class="quem-somos" placeholder="VíDEO PROMOCIONAL">
+		</div>
+		<div>
+			<p class="title">Conheça nossa consultoria!</p>
+			<p class=plano-de-sono>Plano de Sono</p>
+			<p class="personalizado">Personalizado</p>
+			<ul>
+				<li>Ajustes diários de rotina, horário e sono</li>
+				<li>Estratégias de alimentação, desmame e desfralde</li>
+				<li>Melhor qualidade de vida e tempo através de sono</li>
+			</ul>
+
+		</div>
+	</div>
 </ion-content>
