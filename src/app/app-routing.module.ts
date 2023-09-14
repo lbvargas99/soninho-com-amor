@@ -18,6 +18,10 @@ const routes: Routes = [
     path: 'cadastro',
     loadChildren: () => import('./cadastro/cadastro.module').then( m => m.CadastroPageModule)
   },
+  {
+    path: 'inicio-conta',
+    loadChildren: () => import('./inicio-conta/inicio-conta.module').then( m => m.InicioContaPageModule)
+  },
 
 ];
 
