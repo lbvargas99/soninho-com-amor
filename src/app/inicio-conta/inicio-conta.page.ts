@@ -1,15 +1,22 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-inicio-conta',
   templateUrl: './inicio-conta.page.html',
   styleUrls: ['./inicio-conta.page.scss'],
 })
-export class InicioContaPage implements OnInit {
+export class InicioContaPage {
 
-  constructor() { }
+  dicas: string[] = [
+    'Como fazer item',
+    'Como fazer item',
+    'Como fazer item'
+  ];
 
-  ngOnInit() {
-  }
-
+  planosDeSono: string[] = [
+    'Ajustes diários de rotina, horário e sono',
+    'Estratégias de alimentação, desmame e desfralde',
+    'Melhor qualidade de vida e tempo através do sono!'
+  ];
+  
 }

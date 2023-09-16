@@ -1,20 +1,16 @@
-.logo-rosto {
-    border-radius: 50%;
-    height: 4.5rem;
-}
-
 .inicio-header {
-    background-color: #F1B8C9;
-    height: 9.785rem;
-    border-radius: 0 0 2.8125rem 2.8125rem;
-
     display: flex;
     align-items: center;
-}
-
-.logo {
-    height: 4rem;
-    margin: 0 7rem 0 10.31rem;
+    width: 100%;
+    height: 7rem;
+    
+    background-color: #F1B8C9;
+    border-radius: 0 0 2.8125rem 2.8125rem;
+    
+    .logo {
+        height: 4rem;
+        margin: 0 7rem 0 10.31rem;
+    }
 }
 
 .initial-login-data {
@@ -24,38 +20,190 @@
     align-items: center;
 
     margin: 1.44rem 0 0 0;
+
+    .logo-rosto {
+        border-radius: 50%;
+        height: 4.5rem;
+    }
+
+    .conta-dados {
+        p {
+            color: #4C4E53;
+            font-family: Poppins;
+            font-size: 0.625rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin: 0.8rem 0 0 0;
+        }
+
+        h3 {
+            color: #353535;
+            font-family: Poppins;
+            font-size: 1.29375rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            margin: 0;
+        }
+    }
 }
 
-.conta-dados {
-    p {
-        color: var(--primary-body, #4C4E53);
-        leading-trim: both;
-        text-edge: cap;
-        font-family: Poppins;
-        font-size: 0.625rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        margin: 0.8rem 0 0 0;
-    }
-
-    h3 {
-        color: var(--primary-title, #353535);
-        leading-trim: both;
-        text-edge: cap;
-        font-family: Poppins;
-        font-size: 1.29375rem;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        margin: 0;
-    }
+.title {
+    color: #353535;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 .line {
-    height: 1px;
+    height: 0.063rem;
     width: 19.375rem;
     margin: 0.94rem auto 0.69rem auto;
-    background-color: #C38D9D;
+    background: rgba(195, 141, 157, 0.50);
 }
 
+.pesquisar {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0.5rem;
+
+    width: 19.375rem;
+    border-radius: 0.9375rem;
+    background: #F7F3F2;
+
+    img {
+        margin: 0 0.56rem 0 1.06rem;
+    }
+
+    .pesquisa {
+        background-color: transparent;
+        border: none;
+        width: 100%;
+
+        color: #7E7B7A;
+        font-family: Poppins;
+        font-size: 0.625rem;
+        font-style: italic;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 0.03125rem;
+    }
+}
+
+.dicas-content {
+    width: 19.375rem;
+    margin: 0 auto;
+
+    .dicas {
+        display: flex;
+        align-items: center;
+        width: 19.375rem;
+        padding: 0.3125rem 0.6875rem;
+        gap: 0.5625rem;
+        margin: 0 auto 0.62rem auto;
+
+        border-radius: 0.9375rem;
+        background: #FFD1E2;;
+        box-shadow: 0 0.625rem 0.938rem -0.188rem rgba(0, 0, 0, 0.1);
+
+        span {
+            color: #4C4E53;
+            font-family: Poppins;
+            font-size: 0.75rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        img {
+            height: 1.5rem;
+            margin: 0.31rem 0.56rem 0.31rem 0.69rem;
+        }
+    }
+}
+
+.quem-somos {
+    width: 19.375rem;
+    margin: 1.88rem auto;
+
+    .video-simulador {
+        width: 19.375rem;
+        height: 7.5rem;
+        padding: 0rem 5.3125rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 0.9375rem;
+        background: #BCA3AC;
+
+        span {
+            color: #000;
+            font-family: Poppins;
+            font-size: 0.75rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 0.0375rem;
+        }
+    }
+}
+
+.conheca-nossa-cultura {
+    width: 19.375rem;
+    margin: 1.88rem auto;
+    display: flex;
+    flex-direction: column;
+
+    .culture-content {
+        border-radius: 0.9375rem;
+        background: #FFD1E2;
+
+        h4 {
+            color: #353535;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 0.9rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            margin-bottom: 0;
+        }
+
+        span {
+            display: flex;
+            justify-content: center;
+
+            color: #353535;
+            font-family: Poppins;
+            font-size: 0.625rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+
+        li {
+            color: #4C4E53;
+            font-family: Poppins;
+            font-size: 0.625rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        button {
+            display: flex;
+            margin: 1.12rem auto;
+            padding: 0.625rem 1rem;
+            gap: 0.625rem;
+
+            border-radius: 0.9375rem;
+            background: #00B863;
+            box-shadow: 0 0.063rem 0.25rem 0 rgba(0, 0, 0, 0.25);
+        }
+    }
+}
