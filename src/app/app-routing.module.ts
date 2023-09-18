@@ -22,6 +22,10 @@ const routes: Routes = [
     path: 'inicio-conta',
     loadChildren: () => import('./inicio-conta/inicio-conta.module').then( m => m.InicioContaPageModule)
   },
+  {
+    path: 'perfil',
+    loadChildren: () => import('./perfil/perfil.module').then( m => m.PerfilPageModule)
+  },
 
 ];
 
