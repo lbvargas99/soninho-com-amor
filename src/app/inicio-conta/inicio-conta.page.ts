@@ -28,7 +28,6 @@ export class InicioContaPage implements OnInit {
 
   ngOnInit(): void {
     this.usuario = this.formDataService.getLoggerUser();
-    console.log(this.usuario)
   }
   
 }

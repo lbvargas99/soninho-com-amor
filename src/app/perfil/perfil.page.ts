@@ -41,7 +41,6 @@ export class PerfilPage implements OnInit {
 		}
 
 		this.formDataService.updateUser(this.usuario.email, formData)
-		console.log(this.formDataService.getLoggerUser())
 		this.router.navigate(['/login']);
 	}
 
