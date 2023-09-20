@@ -1,27 +1,31 @@
-<ion-content [fullscreen]="true">  
-  <div id="container">    
-    <a routerLink="/home">
-      <img src="../../assets/back-icon.svg" alt="" class="back-icon">
-    </a>
-    <div class="login-header">
-      <img class="logo" src="../../assets/logo-mae.svg" alt="">
-      <p class="title">Soninho com Amor</p>
-    </div>
-    <div class="login-content">
-      <p class="login-text-content">Entrar com</p>
-      <div class="images-icon">
-        <img class="" src="../../assets/facebook-icon.svg" alt="">
-        <img class="" src="../../assets/google-icon.svg" alt="">
-      </div>
-      <p class="teste">ou</p>
-    <div class="login-data">
-      <p class="login-text-content">Dados da conta</p>
-      <input class="input email" placeholder="Nome de usuário ou e-mail*">
-      <input class="input senha" placeholder="Senha*">      
-    </div>
-    </div>
-    <div class="buttons">
-      <a routerLink="/inicio-conta" class="entrar">Entrar</a>
-    </div>
-  </div>
+<ion-content [fullscreen]="true">
+	<div id="container">
+		<a routerLink="/home">
+			<img src="../../assets/back-icon.svg" alt="" class="back-icon">
+		</a>
+		<div class="login-header">
+			<img class="logo" src="../../assets/logo-mae.svg" alt="">
+			<p class="title">Soninho com Amor</p>
+		</div>
+		<div class="login-content">
+			<p class="login-text-content">Entrar com</p>
+			<div class="images-icon">
+				<img class="" src="../../assets/facebook-icon.svg" alt="">
+				<img class="" src="../../assets/google-icon.svg" alt="">
+			</div>
+			<p class="text-ou">ou</p>
+			<div class="login-data">
+				<form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+					<div class="box">
+						<p class="login-text-content">Dados da conta</p>
+						<input formControlName="email" class="input email" placeholder="Nome de usuário ou e-mail*">
+						<input type="password" formControlName="senha" class="input senha" placeholder="Senha*">
+					</div>
+					<div class="buttons">
+						<button class="entrar">Entrar</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
 </ion-content>

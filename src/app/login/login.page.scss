@@ -62,20 +62,20 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
 
+.box {
     border-radius: 0.3125rem;
     background: #FFF4FF;
     box-shadow: 0.75px 0.5px 5px 0px rgba(51, 19, 30, 0.15);
     padding: 1.8rem;
 }
 
-.teste {
-    margin: 2.94rem 0 2.88rem 0;
+.text-ou {
+    margin: 2.94rem 0 7rem 0;
 
     color: #292929;
     text-align: center;
-    leading-trim: both;
-    text-edge: cap;
     font-family: Poppins;
     font-size: 1rem;
     font-style: normal;
