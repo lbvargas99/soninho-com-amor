@@ -1,26 +1,26 @@
 <ion-content [fullscreen]="true">
-  <nav>
-    <a routerLink="/inicio-conta">
-      <img src="../../assets/back-icon.svg" alt="" class="back-icon">
-    </a>
-  </nav>
-  <div class="perfil-box">
-    <p>Perfil</p>
-    <img class="logo-rosto" src="../../assets/logo-conta.svg">
-      <div class="editar-username">
-        <p>[ User name ]</p>
-      </div>
-      <div class="editar-foto">
-        <p>Editar minha foto</p>
-      </div>
-  </div>
-  <div class="dados-box">
-    <form class="perfil-data">
-      <p class="perfil-text-content">Seus dados</p>
-      <input required class="input Nome" placeholder="Nome completo" disabled>
-      <input class="input Email" placeholder="Email*">
-      <input class="input Senha" placeholder="Senha*">
-      <button class= "salvar" type="submit">Salvar edição</button>
-    </form>
-  </div>
+    <nav>
+        <a routerLink="/inicio-conta">
+            <img src="../../assets/back-icon.svg" alt="" class="back-icon">
+        </a>
+    </nav>
+    <div class="perfil-box">
+        <p>Perfil</p>
+        <img class="logo-rosto" src="../../assets/logo-conta.svg">
+        <div class="editar-username">
+            <p>{{usuario.nome}} {{usuario.sobrenome}}</p>
+        </div>
+        <div class="editar-foto">
+            <p>Editar minha foto</p>
+        </div>
+    </div>
+    <div class="dados-box">
+        <form [formGroup]="perfilForm" (ngSubmit)="onSubmit()" class="perfil-data">
+            <p class="perfil-text-content">Seus dados</p>
+            <input formControlName="nome" required class="input Nome" placeholder="Novo nome">
+            <input formControlName="email" class="input Email" placeholder="Novo email">
+            <input formControlName="senha" type="password" class="input Senha" placeholder="Nova senha">
+            <button [disabled]="!perfilForm.valid" class="salvar" type="submit">Salvar edição</button>
+        </form>
+    </div>
 </ion-content>
